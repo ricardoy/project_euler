@@ -5,11 +5,8 @@ use strict;
 use 5.10.0;
 use Data::Dumper;
 
-my $n = shift;
-
 my $x = 1;
 while(1) {
-
     my $t = total_divisors(pa($x));
 
     if ($t > 500) {
