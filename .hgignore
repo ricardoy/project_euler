@@ -1,0 +1,4 @@
+syntax: glob
+*~
+a.out
+526/primes.txt
